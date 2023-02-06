@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm cronerr.txt
+rm cronlog.txt
 cd "$(dirname "$0")"
 . venv/bin/activate
 export LANG=en_US.UTF-8
